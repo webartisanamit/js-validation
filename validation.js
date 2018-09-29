@@ -84,7 +84,7 @@ export default {
   },
   getElementAttributes(element) {
     return {
-      name: element.getAttribute('data-name'),
+      name: element.getAttribute('name'),
       value: element.value,
       type: element.getAttribute('type'),
     };
